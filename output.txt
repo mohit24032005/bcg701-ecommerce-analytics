@@ -1,0 +1,538 @@
+
+=== 0. Collection counts ===
+{
+  customers: 500,
+  products: 100,
+  orders: 2000
+}
+
+=== 1. Indexes ===
+[
+  '_id_',
+  'customerId_1_orderDate_-1',
+  'status_1',
+  'items.productId_1'
+]
+
+=== 2. Customer management ===
+{
+  _id: 'C9001',
+  name: 'Test Student',
+  email: 'test.student@example.com',
+  age: 21,
+  gender: 'Male',
+  address: {
+    city: 'Bengaluru',
+    state: 'Karnataka',
+    pincode: '560001'
+  },
+  registeredOn: ISODate('2026-10-07T16:33:37.935Z'),
+  loyaltyTier: 'Bronze',
+  phone: '9876543210'
+}
+{
+  _id: 'C9001',
+  name: 'Test Student',
+  address: {
+    city: 'Mysuru',
+    state: 'Karnataka',
+    pincode: '560001'
+  },
+  loyaltyTier: 'Silver'
+}
+Customers flagged for contact update: 40
+Test customer remaining: 0
+
+Gold customers in Mumbai:
+[
+  {
+    _id: 'C0039',
+    name: 'Sneha Reddy',
+    age: 59
+  },
+  {
+    _id: 'C0112',
+    name: 'Rohan Agarwal',
+    age: 46
+  },
+  {
+    _id: 'C0205',
+    name: 'Aditya Sharma',
+    age: 30
+  },
+  {
+    _id: 'C0217',
+    name: 'Karan Mehta',
+    age: 53
+  },
+  {
+    _id: 'C0300',
+    name: 'Rahul Nair',
+    age: 43
+  }
+]
+Customers aged 25-30 (count): 72
+
+=== 3. Product search ===
+a) Text search for 'watch':
+[
+  {
+    _id: 'P034',
+    name: 'Wrist Watch Pro',
+    price: 3924.54,
+    score: 1.25
+  },
+  {
+    _id: 'P033',
+    name: 'Wrist Watch Basic',
+    price: 529.12,
+    score: 1.25
+  }
+]
+b) Electronics under Rs.5000 with rating >= 4.0, cheapest first:
+[
+  {
+    name: 'Monitor Basic',
+    price: 2004.97,
+    rating: 4.8
+  },
+  {
+    name: 'Keyboard Basic',
+    price: 4213.47,
+    rating: 4.5
+  }
+]
+c) Tagged 'bestseller' AND in stock:
+[
+  {
+    name: 'Wireless Earbuds Pro',
+    stock: 172
+  },
+  {
+    name: 'Wireless Earbuds Basic',
+    stock: 182
+  },
+  {
+    name: 'Keyboard Basic',
+    stock: 215
+  },
+  {
+    name: 'Webcam Basic',
+    stock: 174
+  },
+  {
+    name: 'Mouse Pro',
+    stock: 173
+  }
+]
+d) Pagination (page 2, 10 per page, sorted by name):
+[
+  {
+    name: 'Bluetooth Speaker Basic',
+    price: 3455.86
+  },
+  {
+    name: 'Bluetooth Speaker Pro',
+    price: 27088.12
+  },
+  {
+    name: 'Comics Pack Basic',
+    price: 852.35
+  },
+  {
+    name: 'Comics Pack Pro',
+    price: 357.07
+  },
+  {
+    name: 'Cookbook Basic',
+    price: 428.19
+  },
+  {
+    name: 'Cookbook Pro',
+    price: 775.67
+  },
+  {
+    name: 'Cookware Set Basic',
+    price: 1167.11
+  },
+  {
+    name: 'Cookware Set Pro',
+    price: 7072.17
+  },
+  {
+    name: 'Cotton T-Shirt Basic',
+    price: 3583.05
+  },
+  {
+    name: 'Cotton T-Shirt Pro',
+    price: 4435.17
+  }
+]
+e) Low-stock alert (stock < 10):
+   count = 2
+f) Query plan check (index used?):
+{
+  stage: 'FETCH',
+  docsExamined: 4,
+  returned: 4
+}
+
+=== 4. Orders ===
+{
+  _id: 'O99999',
+  customerId: 'C0001',
+  orderDate: ISODate('2026-10-07T16:33:37.968Z'),
+  items: [
+    {
+      productId: 'P001',
+      name: 'Wireless Earbuds Basic',
+      category: 'Electronics',
+      unitPrice: 9289.28,
+      quantity: 2
+    }
+  ],
+  totalAmount: 18578.56,
+  status: 'Placed',
+  paymentMethod: 'UPI',
+  shippingCity: 'Bengaluru'
+}
+Order status now: Delivered
+Order with customer details ($lookup):
+[
+  {
+    _id: 'O99999',
+    totalAmount: 18578.56,
+    status: 'Delivered',
+    customer: {
+      name: 'Arjun Sharma',
+      email: 'arjun.sharma1@example.com'
+    }
+  }
+]
+Orders by status:
+[
+  {
+    _id: 'Delivered',
+    count: 976
+  },
+  {
+    _id: 'Shipped',
+    count: 353
+  },
+  {
+    _id: 'Cancelled',
+    count: 348
+  },
+  {
+    _id: 'Placed',
+    count: 323
+  }
+]
+
+=== 5. Sales analysis ===
+5.1 Overall KPIs:
+[
+  {
+    orders: 1652,
+    maxOrder: 210414.73,
+    totalRevenue: 42829202.14,
+    avgOrderValue: 25925.67
+  }
+]
+5.2 Revenue by category:
+[
+  {
+    _id: 'Electronics',
+    unitsSold: 1352,
+    revenue: 25879732.26
+  },
+  {
+    _id: 'Home & Kitchen',
+    unitsSold: 1449,
+    revenue: 7165816.7
+  },
+  {
+    _id: 'Sports',
+    unitsSold: 1383,
+    revenue: 5202755.48
+  },
+  {
+    _id: 'Fashion',
+    unitsSold: 1405,
+    revenue: 3648598.75
+  },
+  {
+    _id: 'Books',
+    unitsSold: 1431,
+    revenue: 932298.95
+  }
+]
+5.3 Top 5 products by units sold:
+[
+  {
+    _id: 'Dinner Set Basic',
+    unitsSold: 110,
+    revenue: 216694.5
+  },
+  {
+    _id: 'Bedsheet Pro',
+    unitsSold: 107,
+    revenue: 782551.99
+  },
+  {
+    _id: 'Tennis Ball Pack Pro',
+    unitsSold: 106,
+    revenue: 614797.88
+  },
+  {
+    _id: 'Resistance Bands Basic',
+    unitsSold: 92,
+    revenue: 211962.48
+  },
+  {
+    _id: 'Dinner Set Pro',
+    unitsSold: 92,
+    revenue: 116648.64
+  }
+]
+5.4 Monthly sales trend:
+[
+  {
+    _id: '2025-01',
+    orders: 92,
+    revenue: 3035174.91
+  },
+  {
+    _id: '2025-02',
+    orders: 69,
+    revenue: 1804625.51
+  },
+  {
+    _id: '2025-03',
+    orders: 78,
+    revenue: 1522798.83
+  },
+  {
+    _id: '2025-04',
+    orders: 80,
+    revenue: 1802009.71
+  },
+  {
+    _id: '2025-05',
+    orders: 120,
+    revenue: 2801195.04
+  },
+  {
+    _id: '2025-06',
+    orders: 101,
+    revenue: 2424515.2
+  },
+  {
+    _id: '2025-07',
+    orders: 101,
+    revenue: 2753838.49
+  },
+  {
+    _id: '2025-08',
+    orders: 92,
+    revenue: 2593893.47
+  },
+  {
+    _id: '2025-09',
+    orders: 80,
+    revenue: 2132366.56
+  },
+  {
+    _id: '2025-10',
+    orders: 87,
+    revenue: 1706361.08
+  },
+  {
+    _id: '2025-11',
+    orders: 94,
+    revenue: 2295817.74
+  },
+  {
+    _id: '2025-12',
+    orders: 98,
+    revenue: 2975974.12
+  },
+  {
+    _id: '2026-01',
+    orders: 89,
+    revenue: 2448893.07
+  },
+  {
+    _id: '2026-02',
+    orders: 102,
+    revenue: 3288212.13
+  },
+  {
+    _id: '2026-03',
+    orders: 92,
+    revenue: 2086321.33
+  },
+  {
+    _id: '2026-04',
+    orders: 103,
+    revenue: 2319554.38
+  },
+  {
+    _id: '2026-05',
+    orders: 107,
+    revenue: 2943255.98
+  },
+  {
+    _id: '2026-06',
+    orders: 67,
+    revenue: 1894394.59
+  }
+]
+5.5 Top 5 customers by lifetime spend:
+[
+  {
+    _id: 'C0453',
+    orders: 7,
+    name: 'Riya Rao',
+    city: 'Ahmedabad',
+    spend: 460555.54
+  },
+  {
+    _id: 'C0009',
+    orders: 6,
+    name: 'Meera Gupta',
+    city: 'Ahmedabad',
+    spend: 454449.07
+  },
+  {
+    _id: 'C0145',
+    orders: 7,
+    name: 'Neha Das',
+    city: 'Bengaluru',
+    spend: 444990.37
+  },
+  {
+    _id: 'C0124',
+    orders: 8,
+    name: 'Sneha Kumar',
+    city: 'Hyderabad',
+    spend: 438125.47
+  },
+  {
+    _id: 'C0223',
+    orders: 8,
+    name: 'Rohan Agarwal',
+    city: 'Kochi',
+    spend: 432411.37
+  }
+]
+5.6 Revenue by shipping city:
+[
+  {
+    _id: 'Ahmedabad',
+    revenue: 6286911.39
+  },
+  {
+    _id: 'Pune',
+    revenue: 5896386.07
+  },
+  {
+    _id: 'Kochi',
+    revenue: 4456311.97
+  },
+  {
+    _id: 'Delhi',
+    revenue: 4406949.31
+  },
+  {
+    _id: 'Mumbai',
+    revenue: 4144357.96
+  },
+  {
+    _id: 'Chennai',
+    revenue: 4080861.63
+  },
+  {
+    _id: 'Jaipur',
+    revenue: 3632277.02
+  },
+  {
+    _id: 'Bengaluru',
+    revenue: 3536202.34
+  },
+  {
+    _id: 'Kolkata',
+    revenue: 3247508.37
+  },
+  {
+    _id: 'Hyderabad',
+    revenue: 3141436.08
+  }
+]
+5.7 Payment method share:
+[
+  {
+    _id: 'UPI',
+    count: 424
+  },
+  {
+    _id: 'Net Banking',
+    count: 412
+  },
+  {
+    _id: 'Credit Card',
+    count: 392
+  },
+  {
+    _id: 'Debit Card',
+    count: 391
+  },
+  {
+    _id: 'Cash on Delivery',
+    count: 381
+  }
+]
+5.8 Cancellation rate (%):
+[
+  {
+    total: 2000,
+    cancelled: 348,
+    ratePct: 17.4
+  }
+]
+5.9 Customers who never ordered:
+[
+  {
+    customersWithNoOrders: 9
+  }
+]
+5.10 Average rating per category:
+[
+  {
+    _id: 'Electronics',
+    products: 20,
+    avgRating: 4.04
+  },
+  {
+    _id: 'Sports',
+    products: 20,
+    avgRating: 3.96
+  },
+  {
+    _id: 'Fashion',
+    products: 20,
+    avgRating: 3.79
+  },
+  {
+    _id: 'Books',
+    products: 20,
+    avgRating: 3.65
+  },
+  {
+    _id: 'Home & Kitchen',
+    products: 20,
+    avgRating: 3.44
+  }
+]
+
+=== Done ===

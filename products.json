@@ -1,0 +1,1402 @@
+[
+ {
+  "_id": "P001",
+  "name": "Wireless Earbuds Basic",
+  "category": "Electronics",
+  "brand": "Nova",
+  "price": 9289.28,
+  "stock": 182,
+  "rating": 4.2,
+  "tags": [
+   "bestseller",
+   "budget"
+  ],
+  "description": "Basic edition of wireless earbuds in the electronics category"
+ },
+ {
+  "_id": "P002",
+  "name": "Wireless Earbuds Pro",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 1795.17,
+  "stock": 172,
+  "rating": 3.6,
+  "tags": [
+   "budget",
+   "bestseller"
+  ],
+  "description": "Pro edition of wireless earbuds in the electronics category"
+ },
+ {
+  "_id": "P003",
+  "name": "Bluetooth Speaker Basic",
+  "category": "Electronics",
+  "brand": "Orbit",
+  "price": 3455.86,
+  "stock": 249,
+  "rating": 3.1,
+  "tags": [
+   "eco",
+   "gift"
+  ],
+  "description": "Basic edition of bluetooth speaker in the electronics category"
+ },
+ {
+  "_id": "P004",
+  "name": "Bluetooth Speaker Pro",
+  "category": "Electronics",
+  "brand": "Bliss",
+  "price": 27088.12,
+  "stock": 136,
+  "rating": 4.7,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Pro edition of bluetooth speaker in the electronics category"
+ },
+ {
+  "_id": "P005",
+  "name": "Smartwatch Basic",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 15304.09,
+  "stock": 25,
+  "rating": 4.8,
+  "tags": [
+   "premium",
+   "gift"
+  ],
+  "description": "Basic edition of smartwatch in the electronics category"
+ },
+ {
+  "_id": "P006",
+  "name": "Smartwatch Pro",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 33717.4,
+  "stock": 54,
+  "rating": 4.5,
+  "tags": [
+   "budget",
+   "new"
+  ],
+  "description": "Pro edition of smartwatch in the electronics category"
+ },
+ {
+  "_id": "P007",
+  "name": "Power Bank Basic",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 20677.45,
+  "stock": 259,
+  "rating": 2.8,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Basic edition of power bank in the electronics category"
+ },
+ {
+  "_id": "P008",
+  "name": "Power Bank Pro",
+  "category": "Electronics",
+  "brand": "Nova",
+  "price": 30569.42,
+  "stock": 80,
+  "rating": 4.3,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Pro edition of power bank in the electronics category"
+ },
+ {
+  "_id": "P009",
+  "name": "USB-C Cable Basic",
+  "category": "Electronics",
+  "brand": "Apex",
+  "price": 19167.13,
+  "stock": 50,
+  "rating": 2.9,
+  "tags": [
+   "eco",
+   "gift"
+  ],
+  "description": "Basic edition of usb-c cable in the electronics category"
+ },
+ {
+  "_id": "P010",
+  "name": "USB-C Cable Pro",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 28795.81,
+  "stock": 103,
+  "rating": 3.6,
+  "tags": [
+   "premium",
+   "new"
+  ],
+  "description": "Pro edition of usb-c cable in the electronics category"
+ },
+ {
+  "_id": "P011",
+  "name": "Webcam Basic",
+  "category": "Electronics",
+  "brand": "Apex",
+  "price": 6509.24,
+  "stock": 174,
+  "rating": 3.2,
+  "tags": [
+   "bestseller",
+   "new"
+  ],
+  "description": "Basic edition of webcam in the electronics category"
+ },
+ {
+  "_id": "P012",
+  "name": "Webcam Pro",
+  "category": "Electronics",
+  "brand": "Vertex",
+  "price": 9822.94,
+  "stock": 212,
+  "rating": 3.4,
+  "tags": [
+   "gift",
+   "bestseller"
+  ],
+  "description": "Pro edition of webcam in the electronics category"
+ },
+ {
+  "_id": "P013",
+  "name": "Keyboard Basic",
+  "category": "Electronics",
+  "brand": "Bliss",
+  "price": 4213.47,
+  "stock": 215,
+  "rating": 4.5,
+  "tags": [
+   "bestseller",
+   "premium"
+  ],
+  "description": "Basic edition of keyboard in the electronics category"
+ },
+ {
+  "_id": "P014",
+  "name": "Keyboard Pro",
+  "category": "Electronics",
+  "brand": "Apex",
+  "price": 14878.54,
+  "stock": 234,
+  "rating": 4.9,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Pro edition of keyboard in the electronics category"
+ },
+ {
+  "_id": "P015",
+  "name": "Mouse Basic",
+  "category": "Electronics",
+  "brand": "Apex",
+  "price": 23620.64,
+  "stock": 74,
+  "rating": 4.4,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Basic edition of mouse in the electronics category"
+ },
+ {
+  "_id": "P016",
+  "name": "Mouse Pro",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 33065.55,
+  "stock": 173,
+  "rating": 3.3,
+  "tags": [
+   "bestseller",
+   "premium"
+  ],
+  "description": "Pro edition of mouse in the electronics category"
+ },
+ {
+  "_id": "P017",
+  "name": "Monitor Basic",
+  "category": "Electronics",
+  "brand": "Zenith",
+  "price": 2004.97,
+  "stock": 77,
+  "rating": 4.8,
+  "tags": [
+   "new",
+   "budget"
+  ],
+  "description": "Basic edition of monitor in the electronics category"
+ },
+ {
+  "_id": "P018",
+  "name": "Monitor Pro",
+  "category": "Electronics",
+  "brand": "Apex",
+  "price": 34060.88,
+  "stock": 205,
+  "rating": 4.7,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Pro edition of monitor in the electronics category"
+ },
+ {
+  "_id": "P019",
+  "name": "Tablet Basic",
+  "category": "Electronics",
+  "brand": "Vertex",
+  "price": 21900.89,
+  "stock": 160,
+  "rating": 4.8,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Basic edition of tablet in the electronics category"
+ },
+ {
+  "_id": "P020",
+  "name": "Tablet Pro",
+  "category": "Electronics",
+  "brand": "Bliss",
+  "price": 31575.75,
+  "stock": 75,
+  "rating": 4.3,
+  "tags": [
+   "premium",
+   "bestseller"
+  ],
+  "description": "Pro edition of tablet in the electronics category"
+ },
+ {
+  "_id": "P021",
+  "name": "Cotton T-Shirt Basic",
+  "category": "Fashion",
+  "brand": "Bliss",
+  "price": 3583.05,
+  "stock": 226,
+  "rating": 4.2,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Basic edition of cotton t-shirt in the fashion category"
+ },
+ {
+  "_id": "P022",
+  "name": "Cotton T-Shirt Pro",
+  "category": "Fashion",
+  "brand": "Nova",
+  "price": 4435.17,
+  "stock": 43,
+  "rating": 2.6,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Pro edition of cotton t-shirt in the fashion category"
+ },
+ {
+  "_id": "P023",
+  "name": "Denim Jeans Basic",
+  "category": "Fashion",
+  "brand": "Vertex",
+  "price": 2981.87,
+  "stock": 64,
+  "rating": 3.8,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Basic edition of denim jeans in the fashion category"
+ },
+ {
+  "_id": "P024",
+  "name": "Denim Jeans Pro",
+  "category": "Fashion",
+  "brand": "Bliss",
+  "price": 1525.74,
+  "stock": 282,
+  "rating": 3.3,
+  "tags": [
+   "eco",
+   "bestseller"
+  ],
+  "description": "Pro edition of denim jeans in the fashion category"
+ },
+ {
+  "_id": "P025",
+  "name": "Running Shoes Basic",
+  "category": "Fashion",
+  "brand": "Bliss",
+  "price": 385.66,
+  "stock": 132,
+  "rating": 3.1,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Basic edition of running shoes in the fashion category"
+ },
+ {
+  "_id": "P026",
+  "name": "Running Shoes Pro",
+  "category": "Fashion",
+  "brand": "Zenith",
+  "price": 5531.03,
+  "stock": 30,
+  "rating": 4.6,
+  "tags": [
+   "eco",
+   "budget"
+  ],
+  "description": "Pro edition of running shoes in the fashion category"
+ },
+ {
+  "_id": "P027",
+  "name": "Hoodie Basic",
+  "category": "Fashion",
+  "brand": "Zenith",
+  "price": 1610.55,
+  "stock": 63,
+  "rating": 3.6,
+  "tags": [
+   "budget",
+   "new"
+  ],
+  "description": "Basic edition of hoodie in the fashion category"
+ },
+ {
+  "_id": "P028",
+  "name": "Hoodie Pro",
+  "category": "Fashion",
+  "brand": "Orbit",
+  "price": 2765.9,
+  "stock": 297,
+  "rating": 3.9,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Pro edition of hoodie in the fashion category"
+ },
+ {
+  "_id": "P029",
+  "name": "Backpack Basic",
+  "category": "Fashion",
+  "brand": "Orbit",
+  "price": 3423.63,
+  "stock": 179,
+  "rating": 3.2,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Basic edition of backpack in the fashion category"
+ },
+ {
+  "_id": "P030",
+  "name": "Backpack Pro",
+  "category": "Fashion",
+  "brand": "Vertex",
+  "price": 3901.81,
+  "stock": 193,
+  "rating": 3.8,
+  "tags": [
+   "bestseller",
+   "new"
+  ],
+  "description": "Pro edition of backpack in the fashion category"
+ },
+ {
+  "_id": "P031",
+  "name": "Sunglasses Basic",
+  "category": "Fashion",
+  "brand": "Bliss",
+  "price": 1512.03,
+  "stock": 98,
+  "rating": 4.6,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Basic edition of sunglasses in the fashion category"
+ },
+ {
+  "_id": "P032",
+  "name": "Sunglasses Pro",
+  "category": "Fashion",
+  "brand": "Vertex",
+  "price": 926.18,
+  "stock": 217,
+  "rating": 4.6,
+  "tags": [
+   "new",
+   "gift"
+  ],
+  "description": "Pro edition of sunglasses in the fashion category"
+ },
+ {
+  "_id": "P033",
+  "name": "Wrist Watch Basic",
+  "category": "Fashion",
+  "brand": "Orbit",
+  "price": 529.12,
+  "stock": 243,
+  "rating": 3.0,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Basic edition of wrist watch in the fashion category"
+ },
+ {
+  "_id": "P034",
+  "name": "Wrist Watch Pro",
+  "category": "Fashion",
+  "brand": "Apex",
+  "price": 3924.54,
+  "stock": 286,
+  "rating": 3.8,
+  "tags": [
+   "premium",
+   "eco"
+  ],
+  "description": "Pro edition of wrist watch in the fashion category"
+ },
+ {
+  "_id": "P035",
+  "name": "Leather Belt Basic",
+  "category": "Fashion",
+  "brand": "Vertex",
+  "price": 2460.92,
+  "stock": 216,
+  "rating": 5.0,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Basic edition of leather belt in the fashion category"
+ },
+ {
+  "_id": "P036",
+  "name": "Leather Belt Pro",
+  "category": "Fashion",
+  "brand": "Apex",
+  "price": 4208.89,
+  "stock": 83,
+  "rating": 2.9,
+  "tags": [
+   "bestseller",
+   "premium"
+  ],
+  "description": "Pro edition of leather belt in the fashion category"
+ },
+ {
+  "_id": "P037",
+  "name": "Kurta Basic",
+  "category": "Fashion",
+  "brand": "Orbit",
+  "price": 2930.26,
+  "stock": 262,
+  "rating": 4.7,
+  "tags": [
+   "new",
+   "bestseller"
+  ],
+  "description": "Basic edition of kurta in the fashion category"
+ },
+ {
+  "_id": "P038",
+  "name": "Kurta Pro",
+  "category": "Fashion",
+  "brand": "Zenith",
+  "price": 2777.74,
+  "stock": 80,
+  "rating": 4.9,
+  "tags": [
+   "eco",
+   "new"
+  ],
+  "description": "Pro edition of kurta in the fashion category"
+ },
+ {
+  "_id": "P039",
+  "name": "Sneakers Basic",
+  "category": "Fashion",
+  "brand": "Apex",
+  "price": 2524.92,
+  "stock": 56,
+  "rating": 2.8,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Basic edition of sneakers in the fashion category"
+ },
+ {
+  "_id": "P040",
+  "name": "Sneakers Pro",
+  "category": "Fashion",
+  "brand": "Orbit",
+  "price": 627.26,
+  "stock": 60,
+  "rating": 3.4,
+  "tags": [
+   "eco",
+   "gift"
+  ],
+  "description": "Pro edition of sneakers in the fashion category"
+ },
+ {
+  "_id": "P041",
+  "name": "Mixer Grinder Basic",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 2927.24,
+  "stock": 73,
+  "rating": 2.9,
+  "tags": [
+   "budget",
+   "premium"
+  ],
+  "description": "Basic edition of mixer grinder in the home & kitchen category"
+ },
+ {
+  "_id": "P042",
+  "name": "Mixer Grinder Pro",
+  "category": "Home & Kitchen",
+  "brand": "Nova",
+  "price": 1144.36,
+  "stock": 145,
+  "rating": 3.0,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Pro edition of mixer grinder in the home & kitchen category"
+ },
+ {
+  "_id": "P043",
+  "name": "Air Fryer Basic",
+  "category": "Home & Kitchen",
+  "brand": "Bliss",
+  "price": 416.94,
+  "stock": 178,
+  "rating": 2.7,
+  "tags": [
+   "new",
+   "premium"
+  ],
+  "description": "Basic edition of air fryer in the home & kitchen category"
+ },
+ {
+  "_id": "P044",
+  "name": "Air Fryer Pro",
+  "category": "Home & Kitchen",
+  "brand": "Nova",
+  "price": 6351.96,
+  "stock": 289,
+  "rating": 3.6,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Pro edition of air fryer in the home & kitchen category"
+ },
+ {
+  "_id": "P045",
+  "name": "Water Bottle Basic",
+  "category": "Home & Kitchen",
+  "brand": "Vertex",
+  "price": 4485.96,
+  "stock": 67,
+  "rating": 4.4,
+  "tags": [
+   "budget",
+   "premium"
+  ],
+  "description": "Basic edition of water bottle in the home & kitchen category"
+ },
+ {
+  "_id": "P046",
+  "name": "Water Bottle Pro",
+  "category": "Home & Kitchen",
+  "brand": "Vertex",
+  "price": 9729.21,
+  "stock": 229,
+  "rating": 2.9,
+  "tags": [
+   "gift",
+   "eco"
+  ],
+  "description": "Pro edition of water bottle in the home & kitchen category"
+ },
+ {
+  "_id": "P047",
+  "name": "Cookware Set Basic",
+  "category": "Home & Kitchen",
+  "brand": "Bliss",
+  "price": 1167.11,
+  "stock": 209,
+  "rating": 3.5,
+  "tags": [
+   "premium",
+   "eco"
+  ],
+  "description": "Basic edition of cookware set in the home & kitchen category"
+ },
+ {
+  "_id": "P048",
+  "name": "Cookware Set Pro",
+  "category": "Home & Kitchen",
+  "brand": "Vertex",
+  "price": 7072.17,
+  "stock": 226,
+  "rating": 4.3,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Pro edition of cookware set in the home & kitchen category"
+ },
+ {
+  "_id": "P049",
+  "name": "Bedsheet Basic",
+  "category": "Home & Kitchen",
+  "brand": "Vertex",
+  "price": 7846.2,
+  "stock": 12,
+  "rating": 3.9,
+  "tags": [
+   "gift",
+   "eco"
+  ],
+  "description": "Basic edition of bedsheet in the home & kitchen category"
+ },
+ {
+  "_id": "P050",
+  "name": "Bedsheet Pro",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 7313.57,
+  "stock": 286,
+  "rating": 2.7,
+  "tags": [
+   "budget",
+   "gift"
+  ],
+  "description": "Pro edition of bedsheet in the home & kitchen category"
+ },
+ {
+  "_id": "P051",
+  "name": "Table Lamp Basic",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 5359.96,
+  "stock": 291,
+  "rating": 3.8,
+  "tags": [
+   "premium",
+   "budget"
+  ],
+  "description": "Basic edition of table lamp in the home & kitchen category"
+ },
+ {
+  "_id": "P052",
+  "name": "Table Lamp Pro",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 11356.85,
+  "stock": 272,
+  "rating": 2.9,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Pro edition of table lamp in the home & kitchen category"
+ },
+ {
+  "_id": "P053",
+  "name": "Vacuum Cleaner Basic",
+  "category": "Home & Kitchen",
+  "brand": "Orbit",
+  "price": 7165.11,
+  "stock": 296,
+  "rating": 3.6,
+  "tags": [
+   "budget",
+   "gift"
+  ],
+  "description": "Basic edition of vacuum cleaner in the home & kitchen category"
+ },
+ {
+  "_id": "P054",
+  "name": "Vacuum Cleaner Pro",
+  "category": "Home & Kitchen",
+  "brand": "Bliss",
+  "price": 4416.59,
+  "stock": 23,
+  "rating": 3.7,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Pro edition of vacuum cleaner in the home & kitchen category"
+ },
+ {
+  "_id": "P055",
+  "name": "Pressure Cooker Basic",
+  "category": "Home & Kitchen",
+  "brand": "Apex",
+  "price": 4157.35,
+  "stock": 12,
+  "rating": 4.6,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Basic edition of pressure cooker in the home & kitchen category"
+ },
+ {
+  "_id": "P056",
+  "name": "Pressure Cooker Pro",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 3655.02,
+  "stock": 50,
+  "rating": 3.9,
+  "tags": [
+   "eco",
+   "bestseller"
+  ],
+  "description": "Pro edition of pressure cooker in the home & kitchen category"
+ },
+ {
+  "_id": "P057",
+  "name": "Dinner Set Basic",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 1969.95,
+  "stock": 78,
+  "rating": 3.3,
+  "tags": [
+   "premium",
+   "bestseller"
+  ],
+  "description": "Basic edition of dinner set in the home & kitchen category"
+ },
+ {
+  "_id": "P058",
+  "name": "Dinner Set Pro",
+  "category": "Home & Kitchen",
+  "brand": "Nova",
+  "price": 1267.92,
+  "stock": 92,
+  "rating": 2.6,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Pro edition of dinner set in the home & kitchen category"
+ },
+ {
+  "_id": "P059",
+  "name": "Storage Box Basic",
+  "category": "Home & Kitchen",
+  "brand": "Nova",
+  "price": 3752.48,
+  "stock": 72,
+  "rating": 3.5,
+  "tags": [
+   "eco",
+   "gift"
+  ],
+  "description": "Basic edition of storage box in the home & kitchen category"
+ },
+ {
+  "_id": "P060",
+  "name": "Storage Box Pro",
+  "category": "Home & Kitchen",
+  "brand": "Zenith",
+  "price": 5079.78,
+  "stock": 26,
+  "rating": 3.0,
+  "tags": [
+   "budget",
+   "gift"
+  ],
+  "description": "Pro edition of storage box in the home & kitchen category"
+ },
+ {
+  "_id": "P061",
+  "name": "Python Programming Basic",
+  "category": "Books",
+  "brand": "Bliss",
+  "price": 350.02,
+  "stock": 258,
+  "rating": 3.5,
+  "tags": [
+   "new",
+   "eco"
+  ],
+  "description": "Basic edition of python programming in the books category"
+ },
+ {
+  "_id": "P062",
+  "name": "Python Programming Pro",
+  "category": "Books",
+  "brand": "Apex",
+  "price": 280.75,
+  "stock": 283,
+  "rating": 3.5,
+  "tags": [
+   "premium",
+   "new"
+  ],
+  "description": "Pro edition of python programming in the books category"
+ },
+ {
+  "_id": "P063",
+  "name": "Data Structures Basic",
+  "category": "Books",
+  "brand": "Orbit",
+  "price": 495.37,
+  "stock": 9,
+  "rating": 3.2,
+  "tags": [
+   "budget",
+   "new"
+  ],
+  "description": "Basic edition of data structures in the books category"
+ },
+ {
+  "_id": "P064",
+  "name": "Data Structures Pro",
+  "category": "Books",
+  "brand": "Bliss",
+  "price": 501.72,
+  "stock": 64,
+  "rating": 3.3,
+  "tags": [
+   "premium",
+   "gift"
+  ],
+  "description": "Pro edition of data structures in the books category"
+ },
+ {
+  "_id": "P065",
+  "name": "Big Data Basics Basic",
+  "category": "Books",
+  "brand": "Vertex",
+  "price": 220.32,
+  "stock": 256,
+  "rating": 3.0,
+  "tags": [
+   "bestseller",
+   "eco"
+  ],
+  "description": "Basic edition of big data basics in the books category"
+ },
+ {
+  "_id": "P066",
+  "name": "Big Data Basics Pro",
+  "category": "Books",
+  "brand": "Orbit",
+  "price": 851.72,
+  "stock": 125,
+  "rating": 3.8,
+  "tags": [
+   "premium",
+   "budget"
+  ],
+  "description": "Pro edition of big data basics in the books category"
+ },
+ {
+  "_id": "P067",
+  "name": "Novel Collection Basic",
+  "category": "Books",
+  "brand": "Zenith",
+  "price": 532.98,
+  "stock": 237,
+  "rating": 4.9,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Basic edition of novel collection in the books category"
+ },
+ {
+  "_id": "P068",
+  "name": "Novel Collection Pro",
+  "category": "Books",
+  "brand": "Orbit",
+  "price": 985.74,
+  "stock": 0,
+  "rating": 2.7,
+  "tags": [
+   "premium",
+   "eco"
+  ],
+  "description": "Pro edition of novel collection in the books category"
+ },
+ {
+  "_id": "P069",
+  "name": "Self Help Guide Basic",
+  "category": "Books",
+  "brand": "Vertex",
+  "price": 657.19,
+  "stock": 194,
+  "rating": 5.0,
+  "tags": [
+   "gift",
+   "bestseller"
+  ],
+  "description": "Basic edition of self help guide in the books category"
+ },
+ {
+  "_id": "P070",
+  "name": "Self Help Guide Pro",
+  "category": "Books",
+  "brand": "Bliss",
+  "price": 904.94,
+  "stock": 144,
+  "rating": 2.6,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Pro edition of self help guide in the books category"
+ },
+ {
+  "_id": "P071",
+  "name": "Math Workbook Basic",
+  "category": "Books",
+  "brand": "Nova",
+  "price": 627.62,
+  "stock": 45,
+  "rating": 3.5,
+  "tags": [
+   "new",
+   "bestseller"
+  ],
+  "description": "Basic edition of math workbook in the books category"
+ },
+ {
+  "_id": "P072",
+  "name": "Math Workbook Pro",
+  "category": "Books",
+  "brand": "Nova",
+  "price": 1071.44,
+  "stock": 221,
+  "rating": 3.0,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Pro edition of math workbook in the books category"
+ },
+ {
+  "_id": "P073",
+  "name": "History Atlas Basic",
+  "category": "Books",
+  "brand": "Nova",
+  "price": 900.34,
+  "stock": 133,
+  "rating": 4.9,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Basic edition of history atlas in the books category"
+ },
+ {
+  "_id": "P074",
+  "name": "History Atlas Pro",
+  "category": "Books",
+  "brand": "Vertex",
+  "price": 533.49,
+  "stock": 164,
+  "rating": 3.4,
+  "tags": [
+   "premium",
+   "budget"
+  ],
+  "description": "Pro edition of history atlas in the books category"
+ },
+ {
+  "_id": "P075",
+  "name": "Cookbook Basic",
+  "category": "Books",
+  "brand": "Vertex",
+  "price": 428.19,
+  "stock": 68,
+  "rating": 4.1,
+  "tags": [
+   "new",
+   "budget"
+  ],
+  "description": "Basic edition of cookbook in the books category"
+ },
+ {
+  "_id": "P076",
+  "name": "Cookbook Pro",
+  "category": "Books",
+  "brand": "Zenith",
+  "price": 775.67,
+  "stock": 88,
+  "rating": 3.5,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Pro edition of cookbook in the books category"
+ },
+ {
+  "_id": "P077",
+  "name": "Science Encyclopedia Basic",
+  "category": "Books",
+  "brand": "Bliss",
+  "price": 797.1,
+  "stock": 41,
+  "rating": 4.5,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Basic edition of science encyclopedia in the books category"
+ },
+ {
+  "_id": "P078",
+  "name": "Science Encyclopedia Pro",
+  "category": "Books",
+  "brand": "Vertex",
+  "price": 849.59,
+  "stock": 227,
+  "rating": 4.2,
+  "tags": [
+   "eco",
+   "premium"
+  ],
+  "description": "Pro edition of science encyclopedia in the books category"
+ },
+ {
+  "_id": "P079",
+  "name": "Comics Pack Basic",
+  "category": "Books",
+  "brand": "Nova",
+  "price": 852.35,
+  "stock": 198,
+  "rating": 2.9,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Basic edition of comics pack in the books category"
+ },
+ {
+  "_id": "P080",
+  "name": "Comics Pack Pro",
+  "category": "Books",
+  "brand": "Nova",
+  "price": 357.07,
+  "stock": 98,
+  "rating": 3.6,
+  "tags": [
+   "bestseller",
+   "new"
+  ],
+  "description": "Pro edition of comics pack in the books category"
+ },
+ {
+  "_id": "P081",
+  "name": "Cricket Bat Basic",
+  "category": "Sports",
+  "brand": "Vertex",
+  "price": 3839.42,
+  "stock": 183,
+  "rating": 3.0,
+  "tags": [
+   "budget",
+   "eco"
+  ],
+  "description": "Basic edition of cricket bat in the sports category"
+ },
+ {
+  "_id": "P082",
+  "name": "Cricket Bat Pro",
+  "category": "Sports",
+  "brand": "Orbit",
+  "price": 5711.15,
+  "stock": 119,
+  "rating": 5.0,
+  "tags": [
+   "eco",
+   "new"
+  ],
+  "description": "Pro edition of cricket bat in the sports category"
+ },
+ {
+  "_id": "P083",
+  "name": "Football Basic",
+  "category": "Sports",
+  "brand": "Vertex",
+  "price": 1546.63,
+  "stock": 107,
+  "rating": 2.5,
+  "tags": [
+   "gift",
+   "premium"
+  ],
+  "description": "Basic edition of football in the sports category"
+ },
+ {
+  "_id": "P084",
+  "name": "Football Pro",
+  "category": "Sports",
+  "brand": "Nova",
+  "price": 1024.16,
+  "stock": 291,
+  "rating": 3.8,
+  "tags": [
+   "bestseller",
+   "budget"
+  ],
+  "description": "Pro edition of football in the sports category"
+ },
+ {
+  "_id": "P085",
+  "name": "Yoga Mat Basic",
+  "category": "Sports",
+  "brand": "Vertex",
+  "price": 1129.1,
+  "stock": 289,
+  "rating": 4.2,
+  "tags": [
+   "budget",
+   "gift"
+  ],
+  "description": "Basic edition of yoga mat in the sports category"
+ },
+ {
+  "_id": "P086",
+  "name": "Yoga Mat Pro",
+  "category": "Sports",
+  "brand": "Bliss",
+  "price": 1458.15,
+  "stock": 65,
+  "rating": 4.4,
+  "tags": [
+   "bestseller",
+   "eco"
+  ],
+  "description": "Pro edition of yoga mat in the sports category"
+ },
+ {
+  "_id": "P087",
+  "name": "Dumbbell Set Basic",
+  "category": "Sports",
+  "brand": "Orbit",
+  "price": 4680.1,
+  "stock": 267,
+  "rating": 4.3,
+  "tags": [
+   "eco",
+   "bestseller"
+  ],
+  "description": "Basic edition of dumbbell set in the sports category"
+ },
+ {
+  "_id": "P088",
+  "name": "Dumbbell Set Pro",
+  "category": "Sports",
+  "brand": "Zenith",
+  "price": 5974.92,
+  "stock": 272,
+  "rating": 4.0,
+  "tags": [
+   "gift",
+   "budget"
+  ],
+  "description": "Pro edition of dumbbell set in the sports category"
+ },
+ {
+  "_id": "P089",
+  "name": "Badminton Racket Basic",
+  "category": "Sports",
+  "brand": "Zenith",
+  "price": 4437.89,
+  "stock": 218,
+  "rating": 4.1,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Basic edition of badminton racket in the sports category"
+ },
+ {
+  "_id": "P090",
+  "name": "Badminton Racket Pro",
+  "category": "Sports",
+  "brand": "Nova",
+  "price": 6016.54,
+  "stock": 221,
+  "rating": 4.6,
+  "tags": [
+   "premium",
+   "eco"
+  ],
+  "description": "Pro edition of badminton racket in the sports category"
+ },
+ {
+  "_id": "P091",
+  "name": "Skipping Rope Basic",
+  "category": "Sports",
+  "brand": "Bliss",
+  "price": 783.24,
+  "stock": 238,
+  "rating": 3.7,
+  "tags": [
+   "budget",
+   "new"
+  ],
+  "description": "Basic edition of skipping rope in the sports category"
+ },
+ {
+  "_id": "P092",
+  "name": "Skipping Rope Pro",
+  "category": "Sports",
+  "brand": "Orbit",
+  "price": 6217.75,
+  "stock": 24,
+  "rating": 3.2,
+  "tags": [
+   "premium",
+   "budget"
+  ],
+  "description": "Pro edition of skipping rope in the sports category"
+ },
+ {
+  "_id": "P093",
+  "name": "Gym Gloves Basic",
+  "category": "Sports",
+  "brand": "Zenith",
+  "price": 2353.54,
+  "stock": 200,
+  "rating": 3.0,
+  "tags": [
+   "new",
+   "budget"
+  ],
+  "description": "Basic edition of gym gloves in the sports category"
+ },
+ {
+  "_id": "P094",
+  "name": "Gym Gloves Pro",
+  "category": "Sports",
+  "brand": "Vertex",
+  "price": 5706.16,
+  "stock": 115,
+  "rating": 4.9,
+  "tags": [
+   "premium",
+   "new"
+  ],
+  "description": "Pro edition of gym gloves in the sports category"
+ },
+ {
+  "_id": "P095",
+  "name": "Cycling Helmet Basic",
+  "category": "Sports",
+  "brand": "Orbit",
+  "price": 4600.58,
+  "stock": 84,
+  "rating": 3.3,
+  "tags": [
+   "new",
+   "gift"
+  ],
+  "description": "Basic edition of cycling helmet in the sports category"
+ },
+ {
+  "_id": "P096",
+  "name": "Cycling Helmet Pro",
+  "category": "Sports",
+  "brand": "Apex",
+  "price": 465.9,
+  "stock": 12,
+  "rating": 4.0,
+  "tags": [
+   "gift",
+   "eco"
+  ],
+  "description": "Pro edition of cycling helmet in the sports category"
+ },
+ {
+  "_id": "P097",
+  "name": "Tennis Ball Pack Basic",
+  "category": "Sports",
+  "brand": "Orbit",
+  "price": 4233.44,
+  "stock": 55,
+  "rating": 3.7,
+  "tags": [
+   "eco",
+   "new"
+  ],
+  "description": "Basic edition of tennis ball pack in the sports category"
+ },
+ {
+  "_id": "P098",
+  "name": "Tennis Ball Pack Pro",
+  "category": "Sports",
+  "brand": "Bliss",
+  "price": 5799.98,
+  "stock": 121,
+  "rating": 4.9,
+  "tags": [
+   "budget",
+   "gift"
+  ],
+  "description": "Pro edition of tennis ball pack in the sports category"
+ },
+ {
+  "_id": "P099",
+  "name": "Resistance Bands Basic",
+  "category": "Sports",
+  "brand": "Zenith",
+  "price": 2303.94,
+  "stock": 228,
+  "rating": 3.9,
+  "tags": [
+   "new",
+   "gift"
+  ],
+  "description": "Basic edition of resistance bands in the sports category"
+ },
+ {
+  "_id": "P100",
+  "name": "Resistance Bands Pro",
+  "category": "Sports",
+  "brand": "Apex",
+  "price": 6438.92,
+  "stock": 160,
+  "rating": 4.7,
+  "tags": [
+   "gift",
+   "new"
+  ],
+  "description": "Pro edition of resistance bands in the sports category"
+ }
+]
